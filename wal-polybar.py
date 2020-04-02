@@ -1,8 +1,9 @@
-#!/usr/bin/env python3
+#!/usr/bin/python3
 import os
 from os.path import join
 import sys
 
+VERSION = '0.9'
 HOME = os.getenv('HOME')
 POLYBAR_CONFIG_FOLDER_PATH = join(HOME, '.config/polybar/')
 POLYBAR_CONFIG_PATH = join(POLYBAR_CONFIG_FOLDER_PATH, 'config')
@@ -29,7 +30,10 @@ def modify_polybar_config_file(colors):  #
 
 
 def main():
-    global POLYBAR_TEMPLATE_PATH, WAL_CACHE_PATH
+    global POLYBAR_TEMPLATE_PATH, WAL_CACHE_PATH, VERSION
+    if sys.argv[1] == '-v':
+        print('wal-polybar ' + VERSION)
+        sys.exit()
     if len(sys.argv) >= 3:
         if sys.argv.index('-t') != -1:
             POLYBAR_TEMPLATE_PATH = sys.argv[sys.argv.index('-t') + 1]
