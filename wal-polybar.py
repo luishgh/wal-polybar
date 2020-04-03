@@ -31,9 +31,10 @@ def modify_polybar_config_file(colors):  #
 
 def main():
     global POLYBAR_TEMPLATE_PATH, WAL_CACHE_PATH, VERSION
-    if sys.argv[1] == '-v':
-        print('wal-polybar ' + VERSION)
-        sys.exit()
+    if len(sys.argv) == 2:
+        if sys.argv[1] == '-v':
+            print('wal-polybar ' + VERSION)
+            sys.exit()
     if len(sys.argv) >= 3:
         if sys.argv.index('-t') != -1:
             POLYBAR_TEMPLATE_PATH = sys.argv[sys.argv.index('-t') + 1]
