@@ -55,22 +55,4 @@ You can manually acess the wal cache colors individually at specific points of y
 ${wal.colorx}
 ```
 Where x is a number between 0 and 15 that corresponds to it's position at the wal cache file. It's generally located at `~/.cache/wal/colors`
-The number of the colors follow a pattern established by `wal` displayed below
-```
-0 -> Black
-1 -> Red
-2 -> Green
-3 -> Yellow
-4 -> Blue
-5 -> Magenta
-6 -> Cyan
-7 -> White
-8 -> Bright Black
-9 -> Bright Red
-10 -> Bright Green
-11 -> Bright Yellow
-12 -> Bright Blue
-13 -> Bright Magenta
-14 -> Bright Cyan
-15 -> Bright White
-```  
+The number of the colors follow a pattern established by `wal`: they are the 16 most present colors on the image in a decreasing order.
