@@ -13,7 +13,7 @@ A handy python script to customize your polybar with pywal colors.
 
 ### Setup
 
--  Clone this repository with `git clone https://github.com/LuisHGH/molar-installation-scripts.git` or download only the script with `wget https://raw.githubusercontent.com/LuisHGH/wal-polybar/master/wal-polybar.py` 
+-  Clone this repository with `git clone https://github.com/LuisHGH/wal-polybar.git` or download only the script with `wget https://raw.githubusercontent.com/LuisHGH/wal-polybar/master/wal-polybar.py` 
 
 - Make a backup of your current polybar config file just to be safe (it is usually located at `~/.config/polybar/config` )
 - Copy your backup to a config.template file under the same directory (you can also use a custom directory, see: **[How to use wal-polybar](#how-to-use-wal-polybar)**
