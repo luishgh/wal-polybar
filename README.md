@@ -4,7 +4,7 @@ A handy python script to customize your polybar with pywal colors.
 ## Requirements
 ### Dependencies
 
-- linux or bsd
+- linux (should work on BSD)
 - python 3
 - polybar
 - pywal
