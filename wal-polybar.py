@@ -35,6 +35,16 @@ def main():
         if sys.argv[1] == '-v':
             print('wal-polybar ' + VERSION)
             sys.exit()
+        if sys.argv[1] == '-h' or sys.argv[1] == '--help':
+            print("usage: wal-polybar [-h] [-v version] [-t 'path/to/template']\n")
+            print('optional arguments:')
+            print('\t-h, --help            show this help message and exit')
+            print('\t-v                    displays the version of wal-polybar')
+            print('\t-t                    runs the script with a custom template path')
+            sys.exit()
+        else:
+            print('Syntax error!')
+            sys.exit()
     if len(sys.argv) >= 3:
         if sys.argv.index('-t') != -1:
             POLYBAR_TEMPLATE_PATH = sys.argv[sys.argv.index('-t') + 1]
