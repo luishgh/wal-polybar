@@ -2,7 +2,7 @@
 A handy python script to customize your polybar with pywal colors.
 
 ## Requirements
-###Dependencies
+### Dependencies
 
 - linux or bsd
 - python 3
@@ -11,7 +11,7 @@ A handy python script to customize your polybar with pywal colors.
 
 ## Installation
 
-###Setup
+### Setup
 
 -  Clone this repository with `git clone https://github.com/LuisHGH/molar-installation-scripts.git` or download only the script with `wget https://raw.githubusercontent.com/LuisHGH/wal-polybar/master/wal-polybar.py` 
 
