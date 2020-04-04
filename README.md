@@ -17,7 +17,7 @@ A handy python script to customize your polybar with pywal colors.
 
 - Make a backup of your current polybar config file just to be safe (it is usually located at `~/.config/polybar/config` )
 - Copy your backup to a config.template file under the same directory (you can also use a custom directory, see: ...)
-- Paste the following to the colors section of your config.template (you can also define the colors from the wal cache manually, see ...)
+- Paste the following to the colors section of your config.template (you can also define the colors from the wal cache manually, see **[Customization](#customization)**
 ```
 background = ${wal.color0}
 background-alt = ${wal.color8}
