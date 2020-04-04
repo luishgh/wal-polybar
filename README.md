@@ -36,7 +36,7 @@ wal-polybar
 
 
 ## How to use `wal-polybar`
-Run `wal-polybar` to update your polybar with alterations made at config.template or to a new background image. Remember that `wal-polybar` uses the cache of wal, so you need to generate the new color scheme with  `wal` before `wal-polybar` can acess it.
+Run `wal-polybar` to update your polybar with any edits made at config.template or to a new background image. Remember that `wal-polybar` uses the cache of wal, so you need to generate the new color scheme with  `wal` before `wal-polybar` can acess it.
 ```sh
 usage: wal-polybar [-v version] [-t 'path/to/template']
 
