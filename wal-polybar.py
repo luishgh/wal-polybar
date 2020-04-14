@@ -11,7 +11,7 @@ POLYBAR_TEMPLATE_PATH = join(POLYBAR_CONFIG_FOLDER_PATH, 'config.template')
 WAL_CACHE_PATH = join(HOME, '.cache/wal/colors')
 
 
-def wal_cache_file_to_dict():  # Creating a list where each element is a color
+def wal_cache_file_to_dict():  # Creating a list where each element is a color from the wal cache
     with open(WAL_CACHE_PATH, 'r') as file:
         colors = []
         for index, line in enumerate(file.readlines()):
